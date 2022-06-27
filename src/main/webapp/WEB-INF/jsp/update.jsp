@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>customer</title>
+<title>update</title>
 </head>
 <body>
 	<c:import url="/header" />
-	<h3>고객 서비스 </h3>
+	<h3>고객 정보 수정 </h3>
 	<c:import url="/footer" />
 </body>
 </html>

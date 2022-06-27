@@ -26,7 +26,6 @@ public interface JenkinsRepo {
 	@Select("SELECT * FROM member")
 	public ArrayList<JenkinsDTO> members();
 	
-
 	@Insert("INSERT INTO member VALUES(#{id}, #{pw}, #{fullName}, #{addr}, #{tel})")
 	public int register(JenkinsDTO member);
 	
