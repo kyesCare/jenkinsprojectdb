@@ -28,6 +28,7 @@ public class HomeController {
 	@GetMapping("register")	public void register() {}
 	@GetMapping("login")	public void login() {}
 	@GetMapping("update")	public void update() {}
+	@GetMapping("customer")	public void customer() {}
 	
 	@PostMapping("login")	
 	public String login(String id, String pw, Model model, RedirectAttributes ra) {
